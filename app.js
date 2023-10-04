@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const httpStatusText = require("./utils/httpStatusText");
-const path = require('node:path');
+const path = require('path');
 
 app.use(cors());
 app.use(express.json());
